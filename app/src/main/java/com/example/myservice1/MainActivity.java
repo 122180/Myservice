@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void readData() {
+
         for (String song:SongClass.song)
         {
             Intent intent=new Intent(MainActivity.this,MyService.class);
